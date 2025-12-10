@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT meteo (mesure+)>
+<!ELEMENT mesure (ville+)>
+<!ATTLIST mesure date CDATA #REQUIRED>
+<!ELEMENT ville EMPTY>
+<!ATTLIST ville 
+    nom CDATA #REQUIRED
+    temperature CDATA #REQUIRED>
